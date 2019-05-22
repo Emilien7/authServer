@@ -1,0 +1,21 @@
+{
+  "name": "node.js_mongodb",
+  "version": "1.0.0",
+  "description": "First Node.js server",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "NODE_PATH=../../ NODE_END=production HOST=localhost PORT=5000 node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^18.3.1",
+    "dotenv": "^8.0.0",
+    "hapi-auth-bearer-token": "^6.1.1",
+    "jquery": "^3.4.1",
+    "mongoose": "^5.5.7",
+    "uuid": "^3.3.2"
+  }
+}
